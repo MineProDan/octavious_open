@@ -1,0 +1,43 @@
+{
+  "name": "octavious",
+  "version": "1.0.0",
+  "description": "A feature-packed Discord community bot: XP & prestige levels, 100+ achievements, collectible pets, colour roles, staff notes and canvas-rendered cards.",
+  "homepage": "https://github.com/MineProDan/octavious_open#readme",
+  "bugs": {
+    "url": "https://github.com/MineProDan/octavious_open/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MineProDan/octavious_open.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "mineprodan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "csv-parser": "^3.2.1",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.6.0"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "leveling",
+    "xp",
+    "achievements",
+    "pets",
+    "mongodb"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "private": true
+}
